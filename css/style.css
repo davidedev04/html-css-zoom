@@ -1,0 +1,132 @@
+/* STILI GENERALI PAGINA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* STILI HEADER */
+
+header {
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#up {
+    width: 100%;
+    color: white;
+    position: fixed;
+    z-index: 499;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#up span {
+    background-color: rgba(255, 255, 255, 0.293);
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+#up span:hover{
+    cursor: pointer;
+}
+
+/* STILI CONTENUTO CENTRALE */
+
+main {
+    background-color: black;
+    width: 100vw;
+    height: calc(100vh - 130px);
+}
+
+#content {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 30px;
+    overflow-y: auto;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.399);
+    color: white;
+    padding: 5px;
+}
+
+/* STILI FOOTER */
+
+footer {
+    width: 100vw;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parti {
+    display: flex;
+    align-items: center;
+}
+
+.color{
+    color: green;
+}
+
+.parte-destra{
+    width: 200px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte-destra:hover{
+    cursor: pointer;
+}
+
+#red{
+    color: red;
+    font-size: 18px;
+}
+
+.stili-icona {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+
+.stili-icona:hover{
+    cursor: pointer;
+}
+
+.stili-icona span:first-child {
+    font-size: 20px;
+}
